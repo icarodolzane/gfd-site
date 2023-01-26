@@ -1,0 +1,40 @@
+.Home{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-heading {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.home-heading button {
+  background-color: black;
+  border:  2px solid white;
+  border-radius: 100px;
+  color: white;
+  font-size: 1.5em;
+  width: 200px;
+}
+
+.home-heading a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-heading a:hover {
+  color: gray
+}
+
+.spreader {
+  background-color: white;
+  height: 1px;
+  width: 950px ;
+}

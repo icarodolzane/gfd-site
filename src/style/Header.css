@@ -1,0 +1,29 @@
+.my-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: left;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.my-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.my-nav a {
+  color: black;
+  font-size: 1.2em;
+  font-weight:700;
+  text-decoration: none;
+}
+
+.my-nav a:hover {
+  color: red;
+}

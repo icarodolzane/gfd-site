@@ -1,0 +1,22 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projects-content h1 {
+  background-color: rgb(161, 161, 233);
+  text-align: center;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.frame {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 50px;
+}
