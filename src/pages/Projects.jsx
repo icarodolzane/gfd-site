@@ -4,13 +4,14 @@ import Banner from '../components/Banner';
 import projectList from '../data';
 import ProjectCard from '../components/ProjectCard';
 import Header from '../components/Header';
+import banner from "../images/banner-projects.png";
 
 function Projects() {
   return (
     <>
       <Header/>
       <div className="Projects">
-        <Banner heading="Projetos" />
+        <Banner src={ banner } />
         <div className="projects-content">
           <h1> Projetos Recentes </h1>
           <div className="frame">

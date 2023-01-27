@@ -1,9 +1,4 @@
-/* import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import card1 from "../images/card1.jpeg";
-import card2 from "../images/card2.jpeg";
-import card3 from "../images/card3.jpeg"; */
-
+import bannerabout from "../images/banner-about.png";
 import '../style/About.css';
 import AboutCard from '../components/AboutCard';
 import Banner from '../components/Banner';
@@ -13,7 +8,7 @@ function About() {
     <>
       <Header/>
         <div className="About">
-        <Banner heading="Sobre a Empresa" />
+        <Banner src={ bannerabout } />
         <div className="about-content">
           <div className='about-paragraph'>
             <div className='paragraph-frame'>

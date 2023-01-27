@@ -2,12 +2,13 @@ import '../style/Services.css';
 import Banner from '../components/Banner';
 import Gallery from '../components/Gallery';
 import Header from '../components/Header';
+import banner from "../images/banner-services.png";
 function Services() {
   return (
     <>
     <Header />
     <div className="Services">
-      <Banner heading="Nossos Serviços" />
+      <Banner src={ banner } />
         <div className="services-content">
             <h1> Projetos Elétricos </h1> 
             <div className="paragraph-service">

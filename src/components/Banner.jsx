@@ -3,9 +3,7 @@ import '../style/Banner.css';
 function Banner(props) {
   return (
     <div className="Banner">
-      <div>
-        <h1> { props.heading } </h1>
-      </div>
+        <img src={ props.src } alt="banner" />
     </div>
   );
 }
