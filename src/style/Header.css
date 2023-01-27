@@ -7,8 +7,9 @@
   width: 100%;
 }
 
-.logo {
-  margin-left: 20px;
+.logo img {
+  height: 10em;
+  width: 12em;
 }
 
 .my-nav {
@@ -26,4 +27,5 @@
 
 .my-nav a:hover {
   color: red;
+  background: rgba(0, 0, 0, 0.05);
 }

@@ -1,4 +1,4 @@
-import logo from "../images/logo-white.png";
+import logo from "../images/logo.png";
 import wpp from "../images/whatsapp.png";
 import '../style/Header.css';
 function Header() {

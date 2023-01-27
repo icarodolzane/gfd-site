@@ -13,10 +13,10 @@ function Home() {
       <div className="home-heading">
         <h1> A GFD está pronta para atender às suas necessidades.</h1>
         <div className="spreader"></div>
-        <button> <a href="/services"> Saiba mais </a> </button>
+        <a href="/services"> Saiba mais </a>
         <div className="spreader"></div>
-        <HomeCard />
       </div>
+      <HomeCard />
     </main>
   );
 }
