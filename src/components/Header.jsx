@@ -1,5 +1,5 @@
 import logo from "../images/logo.png";
-import wpp from "../images/whatsapp.png";
+
 import '../style/Header.css';
 function Header() {
   return (
@@ -9,9 +9,17 @@ function Header() {
       </div>
       <nav className="my-nav">
         <a href="/"> Início </a>
-        <a href="/about"> Sobre a Empresa </a>
         <a href="/services"> Serviços </a>
         <a href="/projects"> Projetos </a>
+        <div className="dropdown">
+          <button class="dropbtn">Sobre
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+          <a href="/about">Sobre a Empresa</a>
+          <a href="/team">A equipe</a>
+        </div>
+        </div>
         <a href="/contact"> Contato </a>
       </nav>
     </header>
