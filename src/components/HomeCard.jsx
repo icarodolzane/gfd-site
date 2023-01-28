@@ -24,7 +24,7 @@ function HomeCard() {
           <img src={ email } alt="" />
         </div>
         <a href="/contact"> <h3>Fale Conosco</h3> </a>
-        <p>Solicitação de Orçamentos, duvidas ou sugestões:
+        <p>Solicitação de Orçamentos, dúvidas ou sugestões:
 Segunda a sexta, das 08h às 18h, nos sábados das 08h às 13h.</p>
       </div>
     </main>

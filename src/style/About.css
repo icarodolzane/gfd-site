@@ -1,6 +1,7 @@
 .About {
   display: flex;
   flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
   height: 650px;
   width: 100%;
 }

@@ -2,6 +2,7 @@
   align-content: center;
   display: flex;
   flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
   justify-content: center;
   width: 100%;
 }
@@ -14,5 +15,6 @@
 }
 
 .paragraph-service {
+  text-align: justify;
   width: 50%;
 }
