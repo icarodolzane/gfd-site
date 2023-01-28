@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Services from './pages/Services';
+import Team from './pages/Team';
 
 class App extends React.Component {
   render(){
@@ -15,6 +16,7 @@ class App extends React.Component {
         <Route path="/contact" component={ Contact } />
         <Route path="/services" component={ Services  } />
         <Route path="/projects" component={ Projects  } />
+        <Route path="/team" component={ Team  } />
         <Route exact path="/" component={ Home } />
       </Switch>
     );

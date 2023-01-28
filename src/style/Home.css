@@ -28,6 +28,8 @@
 .home-heading a:hover {
   color: gray;
   background: rgba(0, 0, 0, 0.05);
+  animation: heartBeat;
+  animation-duration: 1s;
 }
 
 .spreader {
