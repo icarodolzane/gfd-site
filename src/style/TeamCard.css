@@ -64,3 +64,32 @@
   height: 70px;
   width: 70px;
 }
+
+@media (max-width: 400px) {
+  .TeamCard {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+.card-image {
+  align-self:center;
+  height: 10em;
+  width: 10em;
+}
+
+.card-image img {
+  height: 10em;
+  width: 10em;
+}
+
+.social-network {
+  align-items: center;
+  border-top: 2px solid darkgrey;
+  border-left: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+}

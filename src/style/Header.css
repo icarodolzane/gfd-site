@@ -88,3 +88,45 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.my-nav-responsive {
+  display: none;
+}
+@media (max-width: 400px)
+{
+
+  .dropbtn img {
+    height: 30px;
+    width: 30px;
+  }
+  .my-nav {
+    display: none;
+  }
+
+  .my-header {
+    
+  }
+
+  .my-nav-responsive {
+    display:block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    right: 5px;
+    width: 100%;
+  }
+
+  .dropdown-content a {
+    background-color:darkgray;
+    border: 1px solid white;
+    float:none;
+    color: black;
+    padding: 12px 6px;
+    text-decoration: none;
+    width: 100%;
+    display:block;
+    text-align: center;
+
+  }
+
+}

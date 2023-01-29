@@ -18,3 +18,18 @@
   text-align: justify;
   width: 50%;
 }
+
+@media (max-width: 400px) {
+  .services-content h1 {
+    font-size: 1.5em;
+  }
+
+  .paragraph-service {
+    text-align: justify;
+    width: 100%;
+  }
+
+  .paragraph-service p {
+    padding: 10px;
+  }
+}
