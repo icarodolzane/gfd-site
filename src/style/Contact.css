@@ -5,3 +5,8 @@
   font-family: 'Ubuntu', sans-serif;
   justify-content: center;
 }
+
+
+@media (max-width: 400px) {
+  
+}

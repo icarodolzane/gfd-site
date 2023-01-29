@@ -40,7 +40,7 @@ function Services() {
             </li>
             </ul>
         </div>
-      <Gallery />
+      {/* <Gallery /> */}
     </div>
     </>
   );

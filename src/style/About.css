@@ -6,10 +6,6 @@
   width: 100%;
 }
 
-.About h2 {
-  text-align: center;
-}
-
 .card-image {
   display: flex;
   height: 400px;
@@ -27,4 +23,16 @@
 
 .paragraph-frame {
   width: 50%;
+}
+
+@media (max-width: 400px)
+{ 
+  .about-paragraph {
+    width: 100%;
+    margin: 0;
+  }
+  .paragraph-frame {
+    padding: 7px;
+    width: 100%;
+  }
 }

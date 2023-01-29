@@ -28,3 +28,39 @@
 .aboutcard p {
   text-align: center;
 }
+
+@media (max-width: 400px)
+{ 
+  .AboutCard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+  }
+
+  .aboutcard {
+    height: 200px;
+    width: 300px;
+    margin: 0;
+    padding: 5px;
+    overflow:auto;
+  }
+
+  .aboutcard img {
+    height: 3em;
+    width: 3em;
+    flex-grow: 1;
+  }
+
+  .aboutcard h3{
+    font-size: 1em;
+    flex-grow: 2;
+  }
+
+  .aboutcard p {
+    text-align: justify;
+  }
+}
