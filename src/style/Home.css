@@ -36,7 +36,7 @@
 .spreader {
   background-color: darkgray;
   height: 1px;
-  width: 950px ;
+  width: 95% ;
 }
 
 @media (max-width: 400px)
@@ -45,5 +45,10 @@
     width: 100%;
     gap: 5px 10px;
     font-size: 0.7em;
+  }
+  .spreader {
+    background-color: darkgray;
+    height: 1px;
+    width: 95% ;
   }
 }
