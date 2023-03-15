@@ -2,9 +2,11 @@
   align-content: center;
   display: flex;
   justify-content: center;
+  height: 150px;
   width: 100%;
 }
 
 .Banner img {
+  height: 150px;
   width: 100%;
 }

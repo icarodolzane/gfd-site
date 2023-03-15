@@ -9,8 +9,10 @@
 
 
 .logo img {
-  height: 8em;
-  width: 13em;
+  margin-top: 5px;
+  margin-left: 10px;
+  height: 5em;
+  width: 10em;
 }
 
 .my-nav {
@@ -93,17 +95,21 @@
 }
 @media (max-width: 400px)
 {
-
+  /* .my-header {
+    position: fixed;
+  } */
+  .logo img {
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 4em;
+    width: 8em;
+  }
   .dropbtn img {
     height: 30px;
     width: 30px;
   }
   .my-nav {
     display: none;
-  }
-
-  .my-header {
-    
   }
 
   .my-nav-responsive {
